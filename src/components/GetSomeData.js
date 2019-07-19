@@ -57,6 +57,7 @@ export const GetSomeData = () => {
                 setUsers(data);
             })
     }, []);
+
     return (
         <SGetSomeData>
             {users.map(user => (
