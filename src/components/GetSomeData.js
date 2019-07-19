@@ -62,7 +62,7 @@ export const GetSomeData = () => {
         <SGetSomeData>
             {users.map(user => (
                 <div key={user.username} className="users__user">
-                    <img src={user.image} className="users__avatar" alt='' />
+                    <img src={user.image} className="users__avatar" alt='img' />
                     <div className="users__meta">
                         <h1>{user.name}</h1>
                         <p>{user.email}</p>
