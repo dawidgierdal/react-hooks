@@ -6,7 +6,7 @@ export const Counter = () => {
     return (
         <div>
             <button onClick={decrease}>-</button>
-            <span className="count">{count}</span>
+            <div className="count">{count}</div>
             <button onClick={increase}>+</button>
         </div>
     );
